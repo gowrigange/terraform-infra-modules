@@ -7,7 +7,7 @@ variable "vpc_cidr" {
 }
 
 variable "ami_id" {
-  default = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 for us-east-1
+  default = "ami-020cba7c55df1f615"  # linux/unix for us-east-1
 }
 
 variable "instance_type" {
@@ -15,7 +15,7 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  description = "Your existing EC2 key pair"
+  description = "terra-ins-keypair"
 }
 
 variable "bucket_name" {
