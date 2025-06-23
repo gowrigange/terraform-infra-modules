@@ -19,5 +19,5 @@ variable "key_name" {
 }
 
 variable "bucket_name" {
-  description = "A globally unique S3 bucket name"
+  description = "terraform-s3-bucket"
 }
